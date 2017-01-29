@@ -1,0 +1,5 @@
+bedroom:
+    name: "Bedroom"
+    entities:
+      - sensor.cf7911e0_Temperature
+      - sensor.cf7911e0_Humidity

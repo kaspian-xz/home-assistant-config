@@ -1,0 +1,52 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+
+  unit_system: metric
+
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Kiev
+
+  customize: !include customize.yaml
+
+# Enables the frontend
+frontend:
+
+# View all events in a logbook
+logbook:
+
+# Allows you to issue voice commands from the frontend
+conversation:
+
+# Discover some devices automatically
+discovery:
+
+# Track the sun
+sun:
+
+# Enables support for tracking state changes over time.
+history:
+
+# Show links to resources in log and frontend
+# introduction:
+
+# Checks for available updates
+updater:
+
+mqtt:
+  broker: 10.20.30.1
+
+recorder: !include recorder.yaml
+group: !include_dir_merge_named groups
+
+media_player: !include_dir_merge_list media_players
+
+binary_sensor: !include_dir_merge_list binary_sensors
+sensor: !include_dir_merge_list sensors
+
+switch: !include_dir_merge_list switches
+
+automation: !include_dir_merge_list automations

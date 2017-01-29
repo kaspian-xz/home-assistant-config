@@ -1,0 +1,11 @@
+default_view:
+  view: yes
+  entities:
+    - group.bedroom
+#    - group.mainroom
+    - group.bender
+    - group.outdoor
+    - group.media
+    - group.bathroom
+    - group.automations
+#   - group.test

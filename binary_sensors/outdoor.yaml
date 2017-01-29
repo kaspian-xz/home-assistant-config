@@ -1,0 +1,6 @@
+- platform: mqtt
+  name: "8600b3e0_batteryStatus"
+  state_topic: "devices/8600b3e0/sensor/batteryStatus"
+  payload_on: "LOW"
+  payload_off: "OK"
+  sensor_class: power

@@ -1,0 +1,8 @@
+# Outdated version of firmware, includes different payload
+
+- platform: mqtt
+  name: "0cd35aef_switch"
+  command_topic: "devices/0cd35aef/switch/on/set"
+  state_topic: "devices/0cd35aef/switch/on"
+  payload_on: "true"
+  payload_off: "false"

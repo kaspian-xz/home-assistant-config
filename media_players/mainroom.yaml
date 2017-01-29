@@ -1,0 +1,10 @@
+- platform: cast
+  name: ChromeCast
+  host: 10.20.30.14
+
+- platform: kodi
+  name: Kodi
+  host: http://10.20.30.10
+  port: 80
+  user: !secret kodi_user
+  password: !secret kodi_password

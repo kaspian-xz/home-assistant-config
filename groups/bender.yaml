@@ -1,0 +1,4 @@
+bender:
+    name: "Bender"
+    entities:
+      - sensor.disk_free_mntspace0

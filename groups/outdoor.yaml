@@ -1,0 +1,7 @@
+outdoor:
+    name: "Outdoor"
+    entities:
+      - sun.sun
+      - sensor.8600b3e0_Temperature
+      - sensor.8600b3e0_Humidity
+      - binary_sensor.8600b3e0_batteryStatus

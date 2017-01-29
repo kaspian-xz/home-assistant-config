@@ -1,0 +1,31 @@
+- alias: 'Night time - turn water heater ON'
+  trigger:
+      platform: time
+      after: '23:05:00'
+  action:
+    service: switch.turn_on
+    entity_id: switch.20d96ee0_switch
+
+- alias: 'Night time - turn water heater OFF'
+  trigger:
+      platform: time
+      after: '06:45:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.20d96ee0_switch
+
+- alias: 'Day time - turn water heater ON'
+  trigger:
+      platform: time
+      after: '15:00:00'
+  action:
+    service: switch.turn_on
+    entity_id: switch.20d96ee0_switch
+
+- alias: 'Day time - turn water heater OFF'
+  trigger:
+      platform: time
+      after: '16:00:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.20d96ee0_switch

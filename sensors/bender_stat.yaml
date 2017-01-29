@@ -1,0 +1,5 @@
+- name: "BenderStat"
+  platform: systemmonitor
+  resources:
+    - type: 'disk_free'
+      arg: '/mnt/space0'

@@ -1,0 +1,6 @@
+bathroom:
+    name: "Bathroom"
+    entities:
+      - switch.20d96ee0_switch
+      - sensor.20d96ee0_voltage
+      - sensor.20d96ee0_activePower
