@@ -1,5 +1,6 @@
 - platform: mqtt
   name: "20d96ee0_switch"
   friendly_name: "Bath water heater"
+  retain: true
   command_topic: "devices/20d96ee0/switch/on/set"
   state_topic: "devices/20d96ee0/switch/on"
