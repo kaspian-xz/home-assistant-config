@@ -14,5 +14,13 @@ sensor.20d96ee0_voltage:
     friendly_name: 'Bathroom water heater. Voltage'
 sensor.20d96ee0_activePower:
     friendly_name: 'Bathroom water heater.Active power'
+
+sensor.cf87fde0_co2:
+    friendly_name: 'CO2'
+sensor.cf87fde0_humidity:
+    friendly_name: 'Humidity'
+sensor.cf87fde0_temperature:
+    friendly_name: 'Temperature'
+
 binary_sensor.8600b3e0_batteryStatus:
     friendly_name: 'Outdoor. Battery status alert'

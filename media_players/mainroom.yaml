@@ -4,7 +4,8 @@
 
 - platform: kodi
   name: Kodi
-  host: http://10.20.30.10
+  host: 10.20.30.10
   port: 80
-  user: !secret kodi_user
+  username: !secret kodi_user
   password: !secret kodi_password
+  enable_websocket: false

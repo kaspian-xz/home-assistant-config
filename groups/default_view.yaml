@@ -2,7 +2,7 @@ default_view:
   view: yes
   entities:
     - group.bedroom
-#    - group.mainroom
+    - group.mainroom
     - group.bender
     - group.outdoor
     - group.media
