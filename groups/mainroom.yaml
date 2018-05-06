@@ -4,5 +4,4 @@ mainroom:
       - sensor.cf87fde0_Temperature
       - sensor.cf87fde0_Humidity
       - sensor.cf87fde0_co2
-      - switch.0cd35aef_switch
 

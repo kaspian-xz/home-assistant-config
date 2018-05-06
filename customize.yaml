@@ -7,7 +7,7 @@ sensor.8600b3e0_temperature:
 sensor.8600b3e0_humidity:
     friendly_name: 'Outdoor. Humidity'
 switch.0cd35aef_switch:
-    friendly_name: 'White switch'
+    friendly_name: 'Auarium. Light'
 switch.20d96ee0_switch:
     friendly_name: 'Bathroom. Water heater'
 sensor.20d96ee0_voltage:

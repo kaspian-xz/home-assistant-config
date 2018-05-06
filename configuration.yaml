@@ -13,6 +13,15 @@ homeassistant:
 
   customize: !include customize.yaml
 
+http:
+  api_password: !secret api_password
+  use_x_forwarded_for: True
+  ip_ban_enabled: True
+  login_attempts_threshold: 10
+
+#  base_url: hass.kaspian.info
+#  cors_allowed_origins: https://hass.kaspian.info
+
 # Enables the frontend
 frontend:
 
