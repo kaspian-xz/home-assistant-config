@@ -1,0 +1,8 @@
+aquarium:
+    name: "Aquarium"
+    entities:
+      - light.0cd35aef_switch
+      - light.18fe34cf7a1e_switch
+      - sensor.18fe34cf7a1e_Temperature
+
+

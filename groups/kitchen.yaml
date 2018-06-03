@@ -1,5 +1,0 @@
-kitchen:
-    name: "Kitchen"
-    entities:
-      - switch.0cd35aef_switch
-

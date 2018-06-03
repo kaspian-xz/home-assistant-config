@@ -3,13 +3,17 @@
       platform: time
       at: '10:00:00'
   action:
-    service: switch.turn_on
-    entity_id: switch.0cd35aef_switch
+    - service: light.turn_on
+      entity_id: light.0cd35aef_switch
+    - service: light.turn_on
+      entity_id: light.18fe34cf7a1e_switch
 
 - alias: 'Aquarium. Light-OFF'
   trigger:
       platform: time
       at: '22:00:00'
   action:
-    service: switch.turn_off
-    entity_id: switch.0cd35aef_switch
+    - service: light.turn_off
+      entity_id: light.0cd35aef_switch
+    - service: light.turn_off
+      entity_id: light.18fe34cf7a1e_switch
