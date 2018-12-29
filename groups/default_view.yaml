@@ -4,7 +4,6 @@ default_view:
     - group.bedroom
     - group.mainroom
     - group.aquarium
-    - group.bender
     - group.outdoor
     - group.media
     - group.bathroom
