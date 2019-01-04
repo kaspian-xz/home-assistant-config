@@ -1,0 +1,16 @@
+- alias: 'Door open notifier'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.0x00158d000273597f_door_sensor
+    from: 'off'
+    to: 'on'
+  action:
+    - service: notify.notify_alex
+      data:
+        title: "Door opened"
+        message: "Main door has been opened"
+    - service: notify.notify_vika
+      data:
+        title: "Door opened"
+        message: "Main door has been opened"
+

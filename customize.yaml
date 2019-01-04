@@ -39,3 +39,6 @@ sensor.18fe34cf7a1e_Temperature:
 
 binary_sensor.8600b3e0_batteryStatus:
     friendly_name: 'Outdoor. Battery status alert'
+
+binary_sensor.0x00158d000273597f_door_sensor: 
+    friendly_name: 'Main door'

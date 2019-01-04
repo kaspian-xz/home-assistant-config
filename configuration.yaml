@@ -48,12 +48,12 @@ history:
 updater:
 
 mqtt:
-  broker: 10.20.30.1
+  broker: mqtt.lan
 
 recorder: !include recorder.yaml
 group: !include_dir_merge_named groups
 
-media_player: !include_dir_merge_list media_players
+#media_player: !include_dir_merge_list media_players
 
 binary_sensor: !include_dir_merge_list binary_sensors
 sensor: !include_dir_merge_list sensors
@@ -63,6 +63,15 @@ switch: !include_dir_merge_list switches
 light: !include_dir_merge_list lights
 
 automation: !include_dir_merge_list automations
+
+telegram_bot:
+  - platform: broadcast
+    api_key: !secret telegram_api_key
+    allowed_chat_ids:
+      - !secret telegram_alex_id
+      - !secret telegram_vika_id
+
+notify: !include_dir_merge_list notifies
 
 logger:
   default: debug

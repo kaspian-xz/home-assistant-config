@@ -8,4 +8,5 @@ default_view:
     - group.media
     - group.bathroom
     - group.automations
+    - group.security
 #   - group.test
