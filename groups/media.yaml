@@ -1,4 +1,0 @@
-media:
-    name: "Media"
-    entities:
-      - media_player.chromecastxz

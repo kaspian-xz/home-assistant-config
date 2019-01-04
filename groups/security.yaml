@@ -1,0 +1,5 @@
+security:
+  name: "Security"
+  entities:
+    -  binary_sensor.0x00158d000273597f_door_sensor
+
