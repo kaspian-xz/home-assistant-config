@@ -1,9 +1,9 @@
 automations:
     name: "Automations"
     entities:
-      - automation.day_time__turn_water_heater_on
-      - automation.day_time__turn_water_heater_off
-      - automation.night_time__turn_water_heater_on
-      - automation.night_time__turn_water_heater_off
-      - automation.aquarium_lighton
-      - automation.aquarium_lightoff
+      - automation.day_time_turn_water_heater_on
+      - automation.day_time_turn_water_heater_off
+      - automation.night_time_turn_water_heater_on
+      - automation.night_time_turn_water_heater_off
+      - automation.aquarium_light_on
+      - automation.aquarium_light_off
