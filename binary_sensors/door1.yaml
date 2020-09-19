@@ -4,4 +4,4 @@
   payload_off: true
   state_topic: "zigbee2mqtt/0x00158d000273597f"
   value_template: '{{ value_json.contact }}'
-  sensor_class: "door"
+  device_class: "door"

@@ -14,7 +14,7 @@ homeassistant:
   customize: !include customize.yaml
 
 http:
-  api_password: !secret api_password
+#  api_password: !secret api_password
   use_x_forwarded_for: True
   trusted_proxies: 10.20.30.1
   ip_ban_enabled: True
@@ -46,6 +46,8 @@ history:
 
 # Checks for available updates
 updater:
+
+system_health:
 
 mqtt:
   broker: mqtt.lan

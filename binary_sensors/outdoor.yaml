@@ -3,4 +3,4 @@
   state_topic: "devices/5ccf7f8600b3/sensor/batteryStatus"
   payload_on: "LOW"
   payload_off: "OK"
-  sensor_class: battery
+  device_class: battery

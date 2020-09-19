@@ -1,5 +1,5 @@
 default_view:
-  view: yes
+#  view: yes
   entities:
     - group.bedroom
     - group.mainroom
