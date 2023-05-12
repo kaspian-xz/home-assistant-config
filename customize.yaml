@@ -42,3 +42,6 @@ binary_sensor.8600b3e0_batteryStatus:
 
 binary_sensor.0x00158d000273597f_door_sensor: 
     friendly_name: 'Main door'
+
+switch.0cd35aef_switch:
+    friendly_name: 'White switch'

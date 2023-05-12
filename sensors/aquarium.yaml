@@ -1,5 +1,6 @@
-- platform: mqtt
-  name: "18fe34cf7a1e_Temperature"
-  state_topic: "devices/18fe34cf7a1e/sensor/temperature"
-  qos: 0
-  unit_of_measurement: "ºC"
+mqtt:
+  sensor:
+    - name: "18fe34cf7a1e_Temperature"
+    - state_topic: "devices/18fe34cf7a1e/sensor/temperature"
+    - qos: 0
+    - unit_of_measurement: "ºC"

@@ -1,7 +1,7 @@
 - alias: 'Aquarium. Light-ON'
   trigger:
       platform: time
-      at: '10:00:00'
+      at: '07:15:00'
   action:
     - service: light.turn_on
       entity_id: light.0cd35aef_switch
@@ -11,7 +11,7 @@
 - alias: 'Aquarium. Light-OFF'
   trigger:
       platform: time
-      at: '22:00:00'
+      at: '19:15:00'
   action:
     - service: light.turn_off
       entity_id: light.0cd35aef_switch

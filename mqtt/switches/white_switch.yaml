@@ -1,0 +1,6 @@
+- name: "0cd35aef_switch"
+  retain: true
+  command_topic: "devices/0cd35aef/switch/on/set"
+  state_topic: "devices/0cd35aef/switch/on"
+  payload_on: "true"
+  payload_off: "false" 

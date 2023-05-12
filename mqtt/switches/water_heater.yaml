@@ -1,0 +1,5 @@
+- name: "20d96ee0_switch"
+  command_topic: "home/bedroom/switch1/set"
+  retain: true
+  command_topic: "devices/20d96ee0/switch/on/set"
+  state_topic: "devices/20d96ee0/switch/on"

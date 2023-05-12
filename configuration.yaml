@@ -5,6 +5,8 @@ homeassistant:
   latitude: !secret latitude
   longitude: !secret longitude
   elevation: !secret elevation
+  external_url: "https://hass.kaspian.info"
+  internal_url: "http://hassio.local:8123"
 
   unit_system: metric
 
@@ -44,21 +46,25 @@ history:
 # Show links to resources in log and frontend
 # introduction:
 
-# Checks for available updates
-updater:
-
 system_health:
 
+#mqtt:
+#  broker: mqtt.lan
+#  port: 1883
 mqtt:
-  broker: mqtt.lan
-
+  sensor:
+    - name: "18fe34cf7a1e_Temperature"
+      state_topic: "devices/18fe34cf7a1e/sensor/temperature"
+      qos: 0
+      unit_of_measurement: "ºC"
+    
 recorder: !include recorder.yaml
 group: !include_dir_merge_named groups
 
 #media_player: !include_dir_merge_list media_players
 
 binary_sensor: !include_dir_merge_list binary_sensors
-sensor: !include_dir_merge_list sensors
+# mqtt: !include_dir_merge_list sensors
 
 switch: !include_dir_merge_list switches
 
@@ -72,6 +78,7 @@ telegram_bot:
     allowed_chat_ids:
       - !secret telegram_alex_id
       - !secret telegram_vika_id
+      - !secret telegram_kostya_id
 
 notify: !include_dir_merge_list notifies
 

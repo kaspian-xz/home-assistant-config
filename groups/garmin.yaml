@@ -1,0 +1,5 @@
+garmin:
+  name: Garmin
+  entities:
+    - switch.0cd35aef_switch
+    - switch.20d96ee0_switch

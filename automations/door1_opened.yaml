@@ -7,10 +7,14 @@
   action:
     - service: notify.notify_alex
       data:
-        title: "Door opened"
-        message: "Main door has been opened"
+        title: "Двері відчинені"
+        message: "Вхідні двері відчинені"
     - service: notify.notify_vika
       data:
-        title: "Door opened"
-        message: "Main door has been opened"
+        title: "Двері відчинені"
+        message: "Вхідні двері відчинені"
+    - service: notify.notify_kostya
+      data:
+        title: "Двері відчинені"
+        message: "Вхідні двері відчинені"
 

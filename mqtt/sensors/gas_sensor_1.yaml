@@ -1,0 +1,14 @@
+- name: "cf87fde0_Temperature"
+  state_topic: "devices/cf87fde0/sensor/temperature"
+  qos: 0
+  unit_of_measurement: "ºC"
+
+- name: "cf87fde0_Humidity"
+  state_topic: "devices/cf87fde0/sensor/humidity"
+  qos: 0
+  unit_of_measurement: "%"
+
+- name: "cf87fde0_co2"
+  state_topic: "devices/cf87fde0/sensor/co2"
+  qos: 0
+  unit_of_measurement: "ppm"

@@ -1,11 +1,13 @@
-- platform: mqtt
-  name: "8600b3e0_Temperature"
-  state_topic: "devices/5ccf7f8600b3/sensor/temperature"
-  qos: 0
-  unit_of_measurement: "ºC"
+mqtt:
+  sensor:
+    - name: "8600b3e0_Temperature"
+    - state_topic: "devices/5ccf7f8600b3/sensor/temperature"
+    - qos: 0
+    - unit_of_measurement: "ºC"
 
-- platform: mqtt
-  name: "8600b3e0_Humidity"
-  state_topic: "devices/5ccf7f8600b3/sensor/humidity"
-  qos: 0
-  unit_of_measurement: "%"
+mqtt:
+  sensor:
+    - name: "8600b3e0_Humidity"
+    - state_topic: "devices/5ccf7f8600b3/sensor/humidity"
+    - qos: 0
+    - unit_of_measurement: "%"

@@ -1,9 +1,9 @@
-# Outdated version of firmware, includes different payload
-
-- platform: mqtt
-  name: "0cd35aef_switch"
-  command_topic: "devices/0cd35aef/switch/on/set"
-  state_topic: "devices/0cd35aef/switch/on"
-  retain: true
-  payload_on: "true"
-  payload_off: "false"
+mqtt:
+  light:
+    - name: "18fe34cf7a1e_switch"
+    - command_topic: "devices/18fe34cf7a1e/light/level/set"
+    - brightness_command_topic: "devices/18fe34cf7a1e/light/level/set"
+    - brightness_scale: 100
+    - on_command_type: "brightness"
+    - payload_off: "0"
+    - retain: true

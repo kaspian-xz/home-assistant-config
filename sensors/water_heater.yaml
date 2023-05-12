@@ -1,11 +1,13 @@
-- platform: mqtt
-  name: "20d96ee0_voltage"
-  state_topic: "devices/20d96ee0/switch/voltage"
-  qos: 0
-  unit_of_measurement: "V"
+mqtt:
+  sensor:
+    - name: "20d96ee0_voltage"
+    - state_topic: "devices/20d96ee0/switch/voltage"
+    - qos: 0
+    - unit_of_measurement: "V"
 
-- platform: mqtt
-  name: "20d96ee0_activePower"
-  state_topic: "devices/20d96ee0/switch/activePower"
-  qos: 0
-  unit_of_measurement: "W"
+mqtt:
+  sensor:
+    - name: "20d96ee0_activePower"
+    - state_topic: "devices/20d96ee0/switch/activePower"
+    - qos: 0
+    - unit_of_measurement: "W"
