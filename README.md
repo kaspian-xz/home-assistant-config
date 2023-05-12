@@ -5,9 +5,13 @@
 latitude: **.****
 longitude: **.****
 elevation: **
-db_url: mysql://*******:****************@127.0.0.1/hass
+external_url: https://********.***
 kodi_user: *******
 kodi_password: ****************
+telegram_api_key: ************************************
+telegram_alex_id: ************
+telegram_vika_id: ************
+telegram_kostya_id: ************
 ```
 
 
