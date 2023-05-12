@@ -1,9 +1,0 @@
-mqtt:
-  light:
-    - name: "18fe34cf7a1e_switch"
-    - command_topic: "devices/18fe34cf7a1e/light/level/set"
-    - brightness_command_topic: "devices/18fe34cf7a1e/light/level/set"
-    - brightness_scale: 100
-    - on_command_type: "brightness"
-    - payload_off: "0"
-    - retain: true
